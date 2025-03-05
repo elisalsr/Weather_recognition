@@ -26,7 +26,7 @@ Images from Rome during 5 different weather conditions.
 - Snowy
 
 
-<h2>CNN Model & Parameters<h2>
+<h2>CNN Model & Parameters</h2>
          
 - 4 Hidden Layers
 The model captures intricate details while maintaining control over overfitting.
