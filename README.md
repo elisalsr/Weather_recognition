@@ -1,12 +1,14 @@
 <h1>Weather Recognition</h1>
 
 <h2>Introduction</h2>
-This project aims to develop an intelligent system capable of classifying images into four weather categories: sunrise, sunny, rainy, and cloudy. 
-The goal is to analyze images taken at popular tourist destinations and provide real-time weather updates. By integrating this information, the project will help travelers better plan their trips and enhance their overall tourism experience. 
-To achieve this, we have divided the project into three main parts: 
-· Dataset selection and model choice 
-· Model training 
-· Model evaluation
+This project aims to develop an intelligent system for classifying images into four weather categories: sunrise, sunny, rainy, and cloudy. By analyzing images captured at popular tourist destinations, the system will provide real-time weather updates, helping travelers plan their trips more effectively and enhancing their overall experience.
+
+To achieve this, the project is structured into three key phases:
+
+Dataset selection & model choice: Identifying a suitable dataset and selecting the most appropriate machine learning model.
+Model training: Training the model to accurately recognize weather conditions in images.
+Model evaluation: Assessing the model's performance to ensure reliability and effectiveness.
+This approach ensures a robust and efficient weather classification system tailored for tourism applications.
 
 <br />
 
