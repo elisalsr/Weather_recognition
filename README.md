@@ -50,19 +50,18 @@ Validation Loss: 0.6 – 0.9
 
 <h2>Results interpretation</h2>
 
-Strength of our model
+Strengths
+Our model effectively captures Sunny and Snowy images with high accuracy, ensuring users don’t miss good weather opportunities. Additionally, it excels at identifying Foggy conditions, which is particularly useful for drivers.
 
-Almost all Sunny and Snowy pictures are captured by our model (Accuracy), so users may not miss good oportunities. Users can easily avoid Foggy places (usefull for driving especially).
+- Sunny: Accuracy 92% | Recall 94%
+- Snowy: Accuracy 93% | Recall 88%
+- Foggy: Accuracy 95% | Recall 100%
+  
+Areas for Improvement
+While users can reliably avoid locations labeled as Rainy or Cloudy based on accuracy, the recall scores indicate that some rainy and cloudy conditions may go undetected. To improve this, we could expand the training dataset with more Cloudy images or consider refining/removing this class.
 
-- Sunny: Accuracy : 92% ; Recall : 94 %
-- Snowy: Accuracy : 93%  ; Recall : 88 %
-- Foggy: Accuracy : 95% ; Recall : 100 %
-
-Room for improvement
-Users may trustfully avoid places labbeled as Rainy and Cloudy (Accuracy). Unfortunately users will eventually discover Cloudy or Rainy places (Recall) in other places. In the future we could train our model with more Cloudy pictures or eventually remove this class.
-
-- Rainy: Accuracy : 88% ; Recall : 59 %
-- Cloudy: Accuracy : 81% ; Recall : 30 %
+- Rainy: Accuracy 88% | Recall 59%
+- Cloudy: Accuracy 81% | Recall 30%
 
 <h2>Conclusion</h2>
 
