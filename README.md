@@ -8,7 +8,7 @@ To achieve this, the project is structured into three key phases:
 - Dataset selection & model choice: Identifying a suitable dataset and selecting the most appropriate machine learning model.
 - Model training: Training the model to accurately recognize weather conditions in images.
 - Model evaluation: Assessing the model's performance to ensure reliability and effectiveness.
-- 
+
 This approach ensures a robust and efficient weather classification system tailored for tourism applications.
 
 <br />
@@ -26,28 +26,27 @@ Images from Rome during 5 different weather conditions.
 - Snowy
 
 
-<h2>CNN Model & parameters</h2>
-
+<h2>CNN Model & Parameters<h2>
+         
 - 4 Hidden Layers
-         Our model is able to take more details into
-         consideration. Overfitting is still under control.
+The model captures intricate details while maintaining control over overfitting.
 
-- 10 Epochs 
-          A lower number of epochs drastically decrease the
-          accuracy of our model. Overfitting is something to
-          keep an eye on, but it's correct in most training sessions 
+- 10 Epochs
+Fewer epochs significantly reduce accuracy, while too many risk overfitting. Most training sessions maintain a good balance.
 
-- 32 batch
-          That is to say approximatively 8 iteration in each epoch
+- Batch Size: 32
+This results in approximately 8 iterations per epoch.
 
-- ReLu function
-            The most suittable function for high dimenssional data
-  
-- 1 minute of training
+- ReLU Activation Function
+The most suitable function for handling high-dimensional data.
 
-Between 0.6 and 0.8 Accuracy
-Between 0.6 and 0.9 Validation Loss
-(These number change depending on the training session)
+Training Time: ~1 Minute
+
+- Performance Metrics:
+
+Accuracy: 0.6 – 0.8
+Validation Loss: 0.6 – 0.9
+(Values may vary across training sessions.)
 
 <h2>Results interpretation</h2>
 
