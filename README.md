@@ -5,9 +5,10 @@ This project aims to develop an intelligent system for classifying images into f
 
 To achieve this, the project is structured into three key phases:
 
-Dataset selection & model choice: Identifying a suitable dataset and selecting the most appropriate machine learning model.
-Model training: Training the model to accurately recognize weather conditions in images.
-Model evaluation: Assessing the model's performance to ensure reliability and effectiveness.
+- Dataset selection & model choice: Identifying a suitable dataset and selecting the most appropriate machine learning model.
+- Model training: Training the model to accurately recognize weather conditions in images.
+- Model evaluation: Assessing the model's performance to ensure reliability and effectiveness.
+- 
 This approach ensures a robust and efficient weather classification system tailored for tourism applications.
 
 <br />
